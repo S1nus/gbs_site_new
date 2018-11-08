@@ -388,6 +388,14 @@ img {
   }
 }
 
+.logo_wrapper {
+    background:transparent;
+    transition:background 0.5s;
+}
+.logo_wrapper:hover {
+    background: rgba(0,0,0,.7);
+    transition: background 0.5s;
+}
 
 .alignleft {
     float: left;
