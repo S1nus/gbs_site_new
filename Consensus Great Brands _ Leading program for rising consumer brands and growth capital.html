@@ -52,6 +52,18 @@
 		<link rel="dns-prefetch" href="http://s.w.org/">
 		<link rel="alternate" type="application/rss+xml" title="Consensus Great Brands » Feed" href="http://greatbrandsshow.com/feed/">
 		<link rel="alternate" type="application/rss+xml" title="Consensus Great Brands » Comments Feed" href="http://greatbrandsshow.com/comments/feed/">
+		<script language="javascript" type="text/javascript"> 
+
+			function changevid(vidLink){ 
+
+				document.getElementById('change').src = vidLink;
+				document.getElementById('videoDIV').style.display = 'inline';
+			}
+			function hidevid(){ 
+				document.getElementById('videoDIV').style.display = 'none';
+			}
+
+		</script>
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/greatbrandsshow.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -68,6 +80,9 @@
 		vertical-align: -0.1em !important;
 		background: none !important;
 		padding: 0 !important;
+		}
+		video {
+		    object-fit: fill;
 		}
 		</style>
 		<link rel="stylesheet" id="mediaelement-css" href="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/mediaelementplayer-legacy.min.css" type="text/css" media="all">
@@ -126,6 +141,21 @@
 		if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})
 		}catch(d){console.log("Failure at Presize of Slider:"+d)}
 		};</script>
+
+
+		<div id="videoDIV" onclick="hidevid()" style="position:fixed;width:100%;height:100%;z-index:50;display:none">
+			<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center">
+				<div style="position:absolute;background:black;opacity:0.8;width:100%;height:100%"></div>
+				<div id='back_arrow'></div>
+				<div style="width:80%;margin:auto;z-index:55;position:relative">
+					<video width="100%" controls>
+					  <source src="./B8ta.mp4" id="change" type="video/mp4"></source>
+					</video>
+				</div>
+			</div>
+		</div>
+
+
 		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1536664589078{background-color: #000000 !important;}.vc_custom_1536664589078{background-color: #000000 !important;}.vc_custom_1536665918169{background-image: url(http://greatbrandsshow.com/wp-content/uploads/2018/09/qtq80-CajwXS.jpeg?id=701) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1536664589078{background-color: #000000 !important;}.vc_custom_1536666024435{background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
 	<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
 	<body id="ut-sitebody" class="home page-template-default page page-id-7 ut-vc-disabled ut-hero-height-100 has-hero ut-bklyn-multisite wpb-js-composer js-comp-ver-5.1.2 vc_responsive" data-scrolleffect="easeInOutExpo" data-scrollspeed="1000">
@@ -297,17 +327,18 @@
 										
 										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
 										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
-											<div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
 													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
 														<a href="http://thursdayboots.com/" target="_blank">
 															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
 														</a>
 												</div>
-												<div class="ut-image-gallery-image">
-													<video width="100%" controls>
-														<source src="LS4A7806.MOV">
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
 													</video>
-													</div>
+												</div>
 											</div>
 											<div class="clear"></div>
 										</div>
@@ -316,6 +347,162 @@
 							</div>
 						</div>
 						<style type="text/css" scoped=""></style>
+<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+<style type="text/css" scoped=""></style>
+<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+<style type="text/css" scoped=""></style>
+<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+<style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e4cd1b" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style>
 	<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
@@ -348,24 +535,27 @@
 										
 										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
 										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
-											<div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
-													<div style="width:140px;height:140px;margin:auto;display:block">
-														<a href="http://swellbottle.com/" target="_blank">
-															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Swell-1160x1160.jpg"/>
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
 														</a>
 												</div>
-												<div class="ut-image-gallery-image">
-													<video width="100%"controls>
-														<source src="LS4A7806.MOV">
-														</video>
-													</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
 											</div>
 											<div class="clear"></div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e48cac" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+						</div>
+	<style type="text/css" scoped=""></style>
+	<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -395,367 +585,445 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e48f09 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e48f09 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e48f09" class="ut-image-gallery  ut-image-gallery-10 clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://burrow.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Burrow-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption">
-													<h3 style="color:white">Burrow</h3>
-													<video width="100%" style="box-shadow: 2px 2px 2px black;" controls>
-														<source src="LS4A7806.MOV">
-													</video></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e4aa78" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e4aec4 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e4aec4 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e4aec4" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://snowehome.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Snowe-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Snowe</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e4cd1b" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e4d7bb" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e4da0a .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e4da0a .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e4da0a" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://harimari.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Hari-Mari-2-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Hari Mari</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e4ed57" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e4f021 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e4f021 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e4f021" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://shopfelixgray.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Felix-Gray-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Felix Gray</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e50707" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e509c7 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e509c7 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e509c7" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://urbanstems.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/UrbanStems-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>UrbanStems</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e5213a" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e52384 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e52384 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e52384" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://iflyluggage.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/iFLY-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>iFLY</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e53fc3" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e55086" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e55456 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e55456 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e55456" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://naadam.co/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Naadam-1160x627-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Naadam</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e56c21" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e56f8a .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e56f8a .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e56f8a" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://b8ta.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/b8ta-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>b8ta</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e586cd" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e58986 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e58986 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e58986" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://universalstandard.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Universal-Standard-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Universal Standard</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e59e42" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e5a0d9 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e5a0d9 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e5a0d9" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://jaanuu.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Jaanuu-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Jaanuu</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e8a033" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e8b173" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e8b531 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e8b531 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e8b531" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://awaytravel.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Away-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Away</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e8d49d" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
-										<script type="text/javascript">
-										
-										(function($){
-										
-										$(document).ready(function(){
-										
-										
-										function get_animated_objects( $all_appeared_elements, effect ) {
-										
-										var counter = 0;
-										
-										$all_appeared_elements.each(function(){
-										
-										if( $(this).hasClass(effect) ) {
-										counter++;
-										}
-										});
-										
-										return counter;
-										
-										}
-										
-										
-										});
-										
-										})(jQuery);
-										
-										</script>
-										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e8d84a .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e8d84a .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
-										<div id="ut_ig_5bc42a8e8d84a" class="ut-image-gallery  clearfix">
-											<div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
-												<a href="http://cotopaxi.xom/" target="_blank">
-													<div class="ut-image-gallery-image">
-														<img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Cotopaxi-1160x1160.jpg" width="1160" height="1160">
-														<div class="ut-image-gallery-image-caption">
-															<div class="ut-image-gallery-item-caption-title">
-																<h3>Cotopaxi</h3>
-															</div>
-														</div>
-													</div>
-												</a>
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
 											</div>
-											<div class="clear">
-												
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+	<style type="text/css" scoped=""></style>
+	<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
 											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+	<style type="text/css" scoped=""></style>
+	<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+	<style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e53fc3" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style>
+		<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		<style type="text/css" scoped=""></style>
+		<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		<style type="text/css" scoped=""></style>
+		<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		<style type="text/css" scoped=""></style>
+		<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		<style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e8a033" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style>
+			<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			<style type="text/css" scoped=""></style>
+			<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
+										<script type="text/javascript">
+										
+										(function($){
+										
+										$(document).ready(function(){
+										
+										
+										function get_animated_objects( $all_appeared_elements, effect ) {
+										
+										var counter = 0;
+										
+										$all_appeared_elements.each(function(){
+										
+										if( $(this).hasClass(effect) ) {
+										counter++;
+										}
+										});
+										
+										return counter;
+										
+										}
+										
+										
+										});
+										
+										})(jQuery);
+										
+										</script>
+										
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<style type="text/css" scoped=""></style>
-						<div class="wpb_column vc_column_container vc_col-sm-3">
-							<div id="ut_inner_column_5bc42a8e8ef82" class="vc_column-inner ">
-								<div class="wpb_wrapper">
-									<div class="wpb_content_element   clearfix">
+						<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -785,7 +1053,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e8f371 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e8f371 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e8f371" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://modcloth.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/ModCloth-1160x1160.jpeg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Modcloth</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e91066" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style>
+						<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -815,7 +1105,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e913ca .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e913ca .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e913ca" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://sugarfina.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Sugarfina-1-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Sugarfina</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e92ffe" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e93ac1" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e92ffe" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style>
+<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -845,7 +1157,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e93d14 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e93d14 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e93d14" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://shinola.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Shinola-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Shinola</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e95050" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style>
+						<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -875,7 +1209,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e9531d .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e9531d .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e9531d" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://dia.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/DiaCo.-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Dia&amp;Co.</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e968d3" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style>
+						<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -905,7 +1261,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e96bce .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e96bce .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e96bce" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://mmlafleur.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/MMLaFleur-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>MM.LaFleur</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e985d9" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style>
+<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -935,7 +1313,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e98974 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e98974 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e98974" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://chubbiesshorts.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Chubbies-3-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Chubbies</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e9b2ff" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e9c586" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid ut_row_5bc42a8e9b2ff" style="position: relative; left: -352.5px; box-sizing: border-box; width: 1905px; padding-left: 352.5px; padding-right: 352.5px;"><style type="text/css" scoped=""></style>
+							<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -965,7 +1365,28 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e9c916 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e9c916 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e9c916" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://parachutehome.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Parachute-1-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Parachute</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e9e068" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><style type="text/css" scoped=""></style>
+						<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -995,7 +1416,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e9e2bc .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e9e2bc .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e9e2bc" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://rhone.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Rhone-1160x1160.png" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Rhone</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e9f5cd" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style>
+						<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -1025,7 +1468,29 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8e9f7fc .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e9f7fc .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8e9f7fc" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://tuftandneedle.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Tuft-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Tuft &amp; Needle</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style><div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8ea10fe" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element   clearfix">
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style>
+						<div class="wpb_column vc_column_container vc_col-sm-3"><div id="ut_inner_column_5bc42a8e45d46" class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_content_element ut-gallery-10  clearfix">
 										<script type="text/javascript">
 										
 										(function($){
@@ -1055,7 +1520,28 @@
 										
 										</script>
 										
-										<style type="text/css" scoped="">#ut_ig_5bc42a8ea15b9 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8ea15b9 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style><div id="ut_ig_5bc42a8ea15b9" class="ut-image-gallery  clearfix"><div data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 "><a href="http://rocketsofawesome.com/" target="_blank"><div class="ut-image-gallery-image"><img class="" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Rockets-2-1160x1160.jpg" width="1160" height="1160"><div class="ut-image-gallery-image-caption"><div class="ut-image-gallery-item-caption-title"><h3>Rockets of Awesome</h3></div></div></div></a></div><div class="clear"></div></div></div></div></div></div><style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div>
+										<style type="text/css" scoped="">#ut_ig_5bc42a8e45fc5 .ut-lazy:not(.ut-image-loaded) + .ut-video-module-loading { display:block; }#ut_ig_5bc42a8e45fc5 .ut-lazy.ut-image-loaded + .ut-video-module-loading { display:none; }</style>
+										<div id="ut_ig_5bc42a8e45fc5" class="ut-image-gallery  ut-image-gallery-10 clearfix">
+											<div style="padding-left:5px;padding-right:5px;" data-count="1" class="ut-image-gallery-item ut-animation-done grid-100 tablet-grid-100 mobile-grid-100 ">
+													<div style="width:140px;height:140px;margin:auto;display:block;margin-bottom:5px" class="logo_wrapper">
+														<a href="http://thursdayboots.com/" target="_blank">
+															<img style="width:100%;" src="./Consensus Great Brands _ Leading program for rising consumer brands and growth capital_files/Thursday-Boots-1160x1160.png"/>
+														</a>
+												</div>
+												<div style="margin-bottom:5px;display:flex;justify-content:center;align-items:center" onclick="changevid('B8ta.mp4')" id="Video_thumbnail" class="ut-image-gallery-image">
+													<img style="position:absolute" src="player.png" height="20%" width="20% "/>
+													<video width="100%">
+														<source src="B8ta.mp4">
+													</video>
+												</div>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<style type="text/css" scoped=""></style></div><div class="vc_row-full-width vc_clearfix"></div>
 										
 										
 										
