@@ -874,7 +874,6 @@ li .gallery .gallery-item {
 }
 .page-header, .parallax-header, .section-header {
     text-align: center;
-    padding-bottom: 30px;
     position: relative;
 }
 .page-title, .parallax-title, .section-title {
@@ -3948,7 +3947,7 @@ h1.entry-title {
 .page #secondary, 
 .blog #secondary, 
 .single #secondary {
-    padding-top: 80px;
+    padding-top: 0px;
 }
 .blog.has-no-hero #primary, 
 .single.has-no-hero #primary, 
@@ -3979,7 +3978,6 @@ h1.entry-title {
     .ut-header-fixed  .page #secondary, 
     .ut-header-fixed  .blog #secondary, 
     .ut-header-fixed  .single #secondary {
-        padding-top: 80px;
         padding-bottom: 80px;
     }
     .page #primary, 
@@ -3988,7 +3986,6 @@ h1.entry-title {
     .page #secondary, 
     .blog #secondary, 
     .single #secondary {
-        padding-top: 140px;
         padding-bottom: 80px;
     }
     .blog.has-no-hero #primary, 
@@ -3997,7 +3994,6 @@ h1.entry-title {
     .blog.has-no-hero #secondary, 
     .single.has-no-hero #secondary, 
     .page.has-no-hero #secondary {
-        padding-top: 80px;
         padding-bottom: 80px;
 }
     
@@ -4010,7 +4006,6 @@ h1.entry-title {
     .ut-header-fixed  .page #secondary, 
     .ut-header-fixed  .blog #secondary, 
     .ut-header-fixed  .single #secondary {
-        padding-top: 120px;
         padding-bottom: 120px;
     }
     .page #primary, 
@@ -4019,7 +4014,6 @@ h1.entry-title {
     .page #secondary, 
     .blog #secondary, 
     .single #secondary {
-        padding-top: 50px;
         padding-bottom: 120px;
     }
     .blog.has-no-hero #primary, 
@@ -4028,7 +4022,6 @@ h1.entry-title {
     .blog.has-no-hero #secondary, 
     .single.has-no-hero #secondary, 
     .page.has-no-hero #secondary {
-        padding-top: 120px;
         padding-bottom: 120px;
 }
     
